@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+
+.bg-student{
+    background-color: transparent;
+    min-height: 5vh;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.left{
+    background: transparent;
+    width: 70%;
+    height: 100%;
+}
+
+.right{
+    background: transparent;
+    width: 30%;
+    height: 100%;
+
+}
+
+
+.title-student{
+    background: transparent;
+    width: 100%;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.logo-buho{
+    width: 30%;
+    height: 100%;
+}
+
+.logo-buho img{
+    width: 45%;
+}
+
+
+.editName{
+    background: #59b39f;
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.editName p {
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.editbutton{
+    cursor: pointer;
+    color: #113830;
+    background: white;
+    border-color: transparent;
+    border-radius: 10px;
+    width: 25%;
+}
+
+
+.editbutton:hover{
+    cursor: pointer;
+    background-color: #113830;
+    color: white;
+    border-color: transparent;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.area-name{
+    background: #59b39f;
+    width: 25%;
+    margin-left: 82px;
+    border-radius: 0;
+    padding: 10px 4%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.area-name p {
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.bg-area{
+    margin-left: 82px;
+    background-color: white;
+    width: 25%;
+    height: 50px;
+}
+
+.bg-area p {
+
+    padding: 16px;
+
+}
+
+.plan-title{
+    background: #59b39f;
+    width: 90%;
+    margin-left: 82px;
+    border-radius: 0;
+    padding: 10px 4%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.plan-title p{
+
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+
+}
+
+
+.document-title{
+    background: #59b39f;
+    width: 90%;
+    margin-left: 82px;
+    border-radius: 0;
+    padding: 10px 4%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.document-title p {
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+
+
+}
+
+.document-bg{
+    height: 200px;
+    background: white;
+    width: 90%;
+    margin-left: 82px;
+    border-radius: 0;
+    padding: 10px 4%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+
+
+}
+
+.document-status{
+    margin: 5% 0px 0px 0px;
+}
+
+.planification{
+    height: 80px;
+    margin:50px 0px 0px 0px
+
+}
+
+.plan-bg{
+    height: 70px;
+    background: white;
+    width: 90%;
+    margin-left: 82px;
+    border-radius: 0;
+    padding: 10px 4%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+
+}
+
+
+
+.proyect-title{
+    background: #59b39f;
+    width: 90%;
+    margin-left: 82px;
+    border-radius: 0;
+    padding: 10px 4%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.proyect-title p {
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+
+
+}
+
+.proyect-bg{
+    height: 200px;
+    background: white;
+    width: 90%;
+    margin-left: 82px;
+    border-radius: 0;
+    padding: 10px 4%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+
+
+}
+
+.proyect-status{
+    margin: 3% 0px 0px 0px;
+}
+
+.addbutton{
+    cursor: pointer;
+    color: #113830;
+    background: white;
+    border-color: transparent;
+    border-radius: 10px;
+    width: 10%;
+}
+
+
+.addbutton:hover{
+    cursor: pointer;
+    background-color: #113830;
+    color: white;
+    border-color: transparent;
+    border-radius: 10px;
+    width: 10%;
+}
+
+
+
+.profesorButton{
+    cursor: pointer;
+    color: white;
+    background: #208fc6;
+    border-color: transparent;
+    border-radius: 30px;
+    width: 26%;
+    height: 48px;
+}
+
+
+.profesorButton:hover{
+    color: white;
+    cursor: pointer;
+
+    background: #075d88;
+    border-color: transparent;
+    border-radius: 30px;
+    width: 26%;
+    height: 48px;
+}
+
+
+.reunion-title{
+    background: #59b39f;
+    width: 90%;
+    margin-left: 30px;
+    border-radius: 0;
+    padding: 10px 4%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.reunion-title p {
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+
+
+}
+
+.reunion-bg{
+    height: 388px;
+    background: white;
+    width: 90%;
+    margin-left: 30px;
+    border-radius: 0;
+    padding: 10px 4%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+
+
+}
+
+.reunion{
+    margin: 50% 0px 0px 0px;
+}
+
+
+
+
+.footer-student{
+    width: 100%;
+    height: 6rem;
+    background-color: #59b39f;
+    position: relative;
+    margin: 50px 0px 0px 0px
+}
+
+
+#modalPlan{
+
+    width: 27%;
+    height: 63%;
+    border-color: transparent;
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+
+#modalPlan img{
+    margin: -50px 0px 0px 93px;
+    width: 59%;
+}
+
+#modalPlan h2{
+    background: #00d2a3;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+#modalDoc{
+
+    width: 27%;
+    height: 63%;
+    border-color: transparent;
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+
+#modalDoc img{
+    margin: -40px 0px 0px 125px;
+    width: 45%;
+
+}
+
+#modalDoc h2{
+    background: #00d2a3;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+#modalReunion{
+
+    width: 27%;
+    height: 73%;
+    border-color: transparent;
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+
+#modalReunion img{
+    margin: -40px 0px 0px 125px;
+    width: 45%;
+
+}
+
+#modalReunion h2{
+    background: #00d2a3;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+#modalProyect{
+
+    width: 27%;
+    height: 63%;
+    border-color: transparent;
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+
+#modalProyect img{
+    margin: -40px 0px 0px 125px;
+    width: 45%;
+
+}
+
+#modalProyect h2{
+    background: #00d2a3;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+#modalSelect{
+
+    width: 27%;
+    height: 50%;
+    border-color: transparent;
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+
+#modalSelect img{
+    margin: -40px 0px 0px 45px;
+    width: 70%;
+
+}
+
+#modalSelect h2{
+    background: #00d2a3;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.select-input{
+    width: 100%;
+    border-color: #00d2a3;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.repository-title{
+    background: #59b39f;
+    width: 90%;
+    margin-left: 30px;
+    border-radius: 0;
+    padding: 10px 4%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.repository-title p {
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+
+
+}
+
+.repository-bg{
+    height: 200px;
+    background: white;
+    width: 90%;
+    margin-left: 30px;
+    border-radius: 0;
+    padding: 10px 4%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+
+
+}
+
+.repository{
+    margin: 3% 0px 0px 0px;
+}
+
+
+#modalTitulo{
+
+    width: 27%;
+    height: 50%;
+    border-color: transparent;
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+
+#modalTitulo img{
+    margin: -29px 0px 0px 110px;
+    width: 45%;
+}
+
+#modalTitulo h2{
+    background: #00d2a3;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+.date-input{
+
+    width: 95%;
+    border-color: #00d2a3;
+    border-radius: 10px;
+    padding: 10px;
+}
